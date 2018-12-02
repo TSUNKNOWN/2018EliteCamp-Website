@@ -12,9 +12,119 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+<style type="text/css">
+.slider_container {
+    margin: 0px auto;
+    width: 720px;
+    height: 480px;
+    position: relative;
+    border: 0px solid;    
+    border-color: #fff;
+    border-bottom-width: 0px;
+    background-color: #242943;
+    box-shadow: #666 0 0 5px;
+    float: center;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.slider_container div {
+    -webkit-animation: round 15s linear infinite;
+            animation: round 15s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+
+
+.slider_container span {    
+    color: #000;
+    background: #fff;
+    position: absolute;
+    left: 0%;
+    top: 280px;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform:scaleY(0);
+        -ms-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+/*.slider_container:hover span {
+    width: 100%;
+    -webkit-transform:scaleY(1);
+        -ms-transform:scaleY(1);
+            transform:scaleY(1);
+}
+
+.slider_container:hover div {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}*/
+</style>
+
 </head>
 
 <body class="is-preload">
@@ -34,7 +144,7 @@
 		<nav id="menu">
 			<ul class="links">
 				<li><a href="index.html">首頁</a></li>
-				<li><a href="sponser.html">尹總裁介紹</a></li>
+				<li><a href="sponsor.html">尹總裁介紹</a></li>
 				<li><a href="thankyouletter.html">感謝信</a></li>
 				<li><a href="members.html">參與成員</a></li>
 				<li><a href="album.html">活動相簿</a></li>
@@ -56,24 +166,296 @@
 			<section id="one">
 				<div class="inner">
 					<header class="major">
-						<h1>Generic</h1>
+						<h1>學術交流</h1>
 					</header>
-					<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor
-						imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo
-						mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec
-						urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum
-						convallis elit. Pellentesque enim turpis, hendrerit.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti
-						sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor
-						fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus
-						lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod
-						in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non
-						lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-					<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-						mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris,
-						consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque
-						enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+					
+
+					<p> <div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g1\ntu01.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2>臺大第一組</h2>
+						書名：真希望我20歲就懂的事：<br>
+						史丹佛大學的創新X創意X創業震撼課程<br>
+						What I Wish I Knew When I Was 20:<br>
+						A Crash Course on Making Your Place in the World<br>
+						作者： Tina Seelig<br>
+						譯者： 齊若蘭<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g1\pku01.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>北大第一組</h2>
+						書名：卓有成效的管理者<br>
+						The Effective Executive<br>
+						作者：Peter F. Drucker<br>
+						譯者：許是祥<br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+
+						<!-- <div style="float: left;border: 3px dashed white;border-radius: 10px; margin: 1em 1em 1em 7em">
+						<div style="margin: 4em 2em 4em 2em">
+						<h2>北大第一組</h2>
+						書名：卓有成效的管理者The Effective Executive<br>
+						作者：Peter F. Drucker<br>
+						譯者：許是祥<br>
+
+						</div></div>
+						<div><img src=".\images\academic\g1\pku01.jpg" style = "float: right;width: 250px;height:350px;margin: 0.5em 11em 0.5em 0.5em;"></div>
+						<div style="clear:both;"></div> -->
+
+						</p>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g1\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g1\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g1\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>
+<div style="clear:both;"></div><br>
+						<hr size="5" color="white"><br>
+
+
+
+					<p><div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g2\ntu02.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>臺大第二組</h2>
+						書名：The One Minute Manager<br>
+						作者：Ken Blanchard, Spencer Johnson<br><br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g2\pku02.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>北大第二組</h2>
+						書名：Management Challenges for the 21st Century<br>
+						作者：Peter F. Drucker<br><br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g2\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g2\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g2\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>	
+<div style="clear:both;"></div><br>
+						<hr size="5" color="white"><br>					
+					</p>
+					
+
+
+					<p><div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g3\ntu03.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>臺大第三組</h2>
+						書名：目標<br>
+						作者：Eliyahu M. Goldratt<br>
+						譯者：齊若蘭<br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g3\pku03.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>北大第三組</h2>
+						書名：史記<br>
+						作者：司馬遷<br><br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g3\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g3\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g3\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>	
+<div style="clear:both;"></div><br>
+						<hr size="5" color="white"><br>					
+					</p>
+
+
+					<p><div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g4\ntu04.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2>臺大第四組</h2>
+						書名：不只是件白襯衫：商學院裡沒學到的策略實戰><br>
+						What I Didn’t Learn in Business School:><br>
+						How Strategy Works in the Real World><br>
+						作者：Jay B. Barney、Trish Gorman Clifford><br>
+						譯者：顧淑馨
+						<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g4\pku04.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>北大第四組</h2>
+						書名：經驗的疆界<br>
+						The Ambiguities of Experience<br>
+						作者：James G. March<br>
+						譯者：丁丹
+						<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g4\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g4\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g4\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>	
+<div style="clear:both;"></div><br>
+						<hr size="5" color="white"><br>					
+					</p>
+
+
+
+<p><div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g5\ntu05.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2>臺大第五組</h2>
+						書名：創意電力公司：我如何打造皮克斯動畫<br>
+						Creativity, INC. Overcoming the unseen forces that stand in the way of true inspiration<br>
+						作者：Ed Catmull, Amy Wallace<br>
+						譯者：方祖芳<br>
+
+						<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g5\pku05.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2>北大第五組</h2>
+						書名：追求卓越：探索成功企業的特質<br>
+						In Search of Excellence：Lessons from America’s Best-Run Companies<br>
+						作者： Thomas J. Peters，Robert H. Waterman<br>
+						譯者：胡瑋珊<br>
+						<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g5\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g5\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g5\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>	
+<div style="clear:both;"></div><br>
+						<hr size="5" color="white"><br>					
+					</p>
+
+
+
+<p><div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g6\ntu06.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>臺大第六組</h2>
+						書名：What to Ask The Person in the Mirror<br>
+						作者：Robert S. Kaplan<br><br>
+
+						<br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+
+						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div style="margin: 2em 2em 2em 2em">
+						<img src=".\images\academic\g6\pku06.jpg" style = "float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+						<h2><br>北大第六組</h2>
+						書名: The 7 Habits of Highly Effective People<br>
+						作者：Stephen R. Covey<br>
+						<br><br><br>
+						</div></div>
+						
+						<div style="clear:both;"></div>
+<div class="slider_container">
+	<div>
+		<img src=".\images\academic\g6\03.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	<div>
+		<img src=".\images\academic\g6\02.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+	<div>
+		<img src=".\images\academic\g6\01.jpg" alt="pure css3 slider" width="100%" height="auto"/>
+		
+	</div>
+	
+</div>	
+<div style="clear:both;"></div><br>
+										
+					</p>
+
 				</div>
 			</section>
 

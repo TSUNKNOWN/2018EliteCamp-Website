@@ -44,10 +44,6 @@
 				<li><a href="academic.html">學術交流</a></li>
 				<li><a href="publication.html">狀元出品</a></li>
 			</ul>
-			<!-- <ul class="actions stacked">
-					<li><a href="#" class="button primary fit">Get Started</a></li>
-					<li><a href="#" class="button fit">Log In</a></li>
-				</ul> -->
 		</nav>
 
 		<!-- Main -->
@@ -124,9 +120,8 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="copyright">
-					<!-- <li>&copy; Untitled</li> -->
-					<li><a href="http://www.management.ntu.edu.tw/" style="color: gray">國立臺灣大學管理學院</a></li>
-					<li><a href="http://elitecamp.management.ntu.edu.tw/" style="color: gray">歷屆狀元營網頁</a></li>
+					<!-- <li><a href="http://www.management.ntu.edu.tw/" style="color: gray">國立臺灣大學管理學院</a></li>
+					<li><a href="http://elitecamp.management.ntu.edu.tw/" style="color: gray">歷屆狀元營網頁</a></li> -->
 				</ul>
 			</div>
 		</footer>
@@ -134,61 +129,13 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script>
-		// 2. This code loads the IFrame Player API code asynchronously.
-		var tag = document.createElement('script');
-
-		tag.src = "https://www.youtube.com/iframe_api";
-		var firstScriptTag = document.getElementsByTagName('script')[0];
-		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-		var player;
-
-		function onYouTubeIframeAPIReady() {
-			player = new YT.Player('player', {
-				height: '490',
-				width: '640',
-				videoId: '7tRRezdKOeI',
-				playerVars: {
-					'autoplay': 1,
-					'controls': 1
-				},
-				events: {
-					'onReady': onPlayerReady,
-					'onStateChange': onPlayerStateChange
-				}
-			});
-		}
-
-		// 4. The API will call this function when the video player is ready.
-		function onPlayerReady(event) {
-			event.target.playVideo();
-		}
-
-		// 5. The API calls this function when the player's state changes.
-		//    The function indicates that when playing a video (state=1),
-		//    the player should play for six seconds and then stop.
-		var done = false;
-
-		function onPlayerStateChange(event) {
-			if (event.data == YT.PlayerState.PLAYING && !done) {
-				// setTimeout(stopVideo, 6000);
-				done = true;
-			}
-		}
-	</script>
-
-
-
-
-
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/jquery.scrolly.min.js"></script>
+	<script src="./assets/js/jquery.scrollex.min.js"></script>
+	<script src="./assets/js/browser.min.js"></script>
+	<script src="./assets/js/breakpoints.min.js"></script>
+	<script src="./assets/js/util.js"></script>
+	<script src="./assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 ﻿12/5 冠群
 -更改image/album/imagebutton.png
 -更改album.html中的路徑為相對路徑
--增加./assets/js/issuu.js
+-增加./assets/js/issuu.min.js
 -更改publication.html(原code以註解方式無效化)
 -加回頁尾
 -更改thankyouletter.html各組相片的alt為"Photo of Group?" (?為各組號碼)

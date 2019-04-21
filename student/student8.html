@@ -16,9 +16,22 @@
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
+	<style>
+		body {
+			display: none;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -41,7 +54,8 @@
 						<h1 align="center">​游雯雅</h1>
 					</header>
 
-					<p>　　<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
+					<p>　　<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
 							<div align="left">
 								從來沒有想過，十四天的旅程，能讓一群完全不認識的人成為無話不談的朋友。彷彿前一天才剛見到北大夥伴，既興奮及喜悅，一轉眼我們就在長沙機場依依不捨地道別。才剛剛開始的緣份，多希望能再延續久一點。<br><br>
 

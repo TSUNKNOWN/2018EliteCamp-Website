@@ -24,10 +24,22 @@
 			height: auto;
 			margin: 0.5em 0.5em 0.5em 0.5em;
 		}
+
+		body {
+			display: none;
+		}
 	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -64,7 +76,8 @@
 					<header class="major">
 						<h1>感謝信</h1>
 					</header>
-					<span class="image main"><img style=" width: 100%;height: auto;" src="./images/thankyouletter/head.jpg" alt="" /></span>
+					<span class="image main"><img style=" width: 100%;height: auto;"
+							src="./images/thankyouletter/head.jpg" alt="" /></span>
 
 					<p>
 						<font size="3">第一組</font>

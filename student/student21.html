@@ -16,9 +16,22 @@
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
+	<style>
+		body {
+			display: none;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -26,12 +39,12 @@
 		<!-- Header -->
 		<header id="header">
 			<a href="../index.html" class="logo"><strong>Elite Camp</strong> <span>2018臺大北大菁英交流營</span></a>
-			
+
 		</header>
 
 		<!-- Menu -->
-		
-			<!-- <ul class="actions stacked">
+
+		<!-- <ul class="actions stacked">
 					<li><a href="#" class="button primary fit">Get Started</a></li>
 					<li><a href="#" class="button fit">Log In</a></li>
 				</ul> -->
@@ -46,31 +59,32 @@
 					<header class="major">
 						<h1 align="center">​簡博涵</h1>
 					</header>
-					
-					<p>　　<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
-						<div align="left">
-分別不到兩個禮拜，就開始思念你們。十四天的旅程短暫轉瞬即逝，卻悠長讓我們從陌生人變成傾心相待的好友。何其有幸，能在這個夏天與你們相知相遇。<br><br>
 
- 
+					<p>　　<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
+							<div align="left">
+								分別不到兩個禮拜，就開始思念你們。十四天的旅程短暫轉瞬即逝，卻悠長讓我們從陌生人變成傾心相待的好友。何其有幸，能在這個夏天與你們相知相遇。<br><br>
 
-   我們是如此相似，卻又如此迥異。在學業上，我們同樣聰慧又認真；在生活上，我們保有天真稚氣的單純；在遊戲中，我們同樣擁有慧黠的小聰明；在晚會上，我們展現各式各樣的才華絕技。台大同學的定義遊戲創意無窮，而北大學生玩狼人殺時絕佳口才與分析能力令人拍案叫絕；台大學生的讀書心得報告幽默且富有巧思，而北大同學在報告中展現不凡的思辨能力。相似之處讓我們毫無隔閡、親近無比，相異之處讓我們切磋琢磨、互相學習，我想，這就是狀元營最可貴之處。<br><br>
 
- 
 
-　　猶記得旅程第一天，一群粉紅海浪在桃園機場興奮又緊張地等著北大小夥伴，擔心著可能存在的代溝與距離。然而這些擔憂很快蕩然無存，真誠相待的我們迅速打成一片，我們一起在凌晨時分玩狼人殺、在出發前十分鐘跑進餐廳抓幾片餅乾衝上遊覽車、在１０１觀景台售票口關閉前一分鐘買到票、在凌晨三點鐘睡眼惺忪地搭上阿里山小火車看日出。台灣行最後一個晚上，我們聚在一起聊心事、說情史，「好想睡呀！但...捨不得睡」我如是說道。因為有你們，熟悉的景色以全新的姿態烙印在我腦中。台灣的風景很美，而你們卻是我心中最美的風景。<br><br>
+								我們是如此相似，卻又如此迥異。在學業上，我們同樣聰慧又認真；在生活上，我們保有天真稚氣的單純；在遊戲中，我們同樣擁有慧黠的小聰明；在晚會上，我們展現各式各樣的才華絕技。台大同學的定義遊戲創意無窮，而北大學生玩狼人殺時絕佳口才與分析能力令人拍案叫絕；台大學生的讀書心得報告幽默且富有巧思，而北大同學在報告中展現不凡的思辨能力。相似之處讓我們毫無隔閡、親近無比，相異之處讓我們切磋琢磨、互相學習，我想，這就是狀元營最可貴之處。<br><br>
 
- 
 
-　　幾天的養精蓄銳後，我們興高采烈地來到北京。你們如多年不見的好友熱情的招呼我們。忘不了，三更半夜吃完海底撈貼心送我們回飯店才轉身回宿舍的你們；忘不了，在飯店一起嚕串吃麻辣小龍蝦的我們；忘不了，在飯店門口玩定義遊戲笑到不能自抑的大家；更忘不了，臨行前，淚灑機場依依不捨的情景。從一開始拍小組合照總是湊不齊人，到最後永遠黏在一起的第五組夥伴們，你們是我這趟旅程中最美好最珍貴的收穫，謝謝你們，絢爛了我的夏天。<br><br>
 
- 
+								　　猶記得旅程第一天，一群粉紅海浪在桃園機場興奮又緊張地等著北大小夥伴，擔心著可能存在的代溝與距離。然而這些擔憂很快蕩然無存，真誠相待的我們迅速打成一片，我們一起在凌晨時分玩狼人殺、在出發前十分鐘跑進餐廳抓幾片餅乾衝上遊覽車、在１０１觀景台售票口關閉前一分鐘買到票、在凌晨三點鐘睡眼惺忪地搭上阿里山小火車看日出。台灣行最後一個晚上，我們聚在一起聊心事、說情史，「好想睡呀！但...捨不得睡」我如是說道。因為有你們，熟悉的景色以全新的姿態烙印在我腦中。台灣的風景很美，而你們卻是我心中最美的風景。<br><br>
 
-   我把相思煮得濃濃，品你留下的芳味。
-<br><br>
-   </div>
-</div>
+
+
+								　　幾天的養精蓄銳後，我們興高采烈地來到北京。你們如多年不見的好友熱情的招呼我們。忘不了，三更半夜吃完海底撈貼心送我們回飯店才轉身回宿舍的你們；忘不了，在飯店一起嚕串吃麻辣小龍蝦的我們；忘不了，在飯店門口玩定義遊戲笑到不能自抑的大家；更忘不了，臨行前，淚灑機場依依不捨的情景。從一開始拍小組合照總是湊不齊人，到最後永遠黏在一起的第五組夥伴們，你們是我這趟旅程中最美好最珍貴的收穫，謝謝你們，絢爛了我的夏天。<br><br>
+
+
+
+								我把相思煮得濃濃，品你留下的芳味。
+								<br><br>
+							</div>
+						</div>
 					</p>
-					
+
 				</div>
 			</section>
 
@@ -140,7 +154,7 @@
 						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					</ul> -->
 				<ul class="copyright">
-					
+
 					<li><a href="http://www.management.ntu.edu.tw/" style="color: gray">國立臺灣大學管理學院</a></li>
 					<li><a href="http://elitecamp.management.ntu.edu.tw/" style="color: gray">歷屆狀元營網頁</a></li>
 				</ul>

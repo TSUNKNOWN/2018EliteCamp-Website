@@ -17,9 +17,22 @@
     <noscript>
         <link rel="stylesheet" href="./assets/css/noscript.css">
     </noscript>
+    <style>
+        body {
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
+    <script>
+        if (self == top) {
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.style.display = "block"
+        } else {
+            top.location = self.location
+        }
+    </script>
 
     <!-- Wrapper -->
     <div id="wrapper">
@@ -57,9 +70,11 @@
                         <h1>活動相簿</h1>
                     </header>
 
-                    <div id="mediairazuv261inlineContent" class="strc1inlineContent" style="width: 100%; position: relative; top: 0px; bottom: 0px;">
+                    <div id="mediairazuv261inlineContent" class="strc1inlineContent"
+                        style="width: 100%; position: relative; top: 0px; bottom: 0px;">
                         <div data-content-area-marker="mediairazuv261" data-aid="content-area-marker-mediairazuv261"
-                            style="visibility: hidden; position: absolute; width: 980px; margin-left: calc((100% - 980px) * 0.5);"></div>
+                            style="visibility: hidden; position: absolute; width: 980px; margin-left: calc((100% - 980px) * 0.5);">
+                        </div>
                         <style id="mediairazuv261-content-area-styles">
                             #comp-jlgwp01b {
                                 margin-left: calc((100% - 980px) * 0.5);
@@ -157,7 +172,8 @@
                                 margin-left: calc((100% - 980px) * 0.5);
                             }
                         </style>
-                        <div data-packed="false" data-min-height="68" class="txtNew" id="comp-jlgwp01b" style="left: 302px; width: 376px; position: absolute; min-height: 68px; pointer-events: none; top: 27px;">
+                        <div data-packed="false" data-min-height="68" class="txtNew" id="comp-jlgwp01b"
+                            style="left: 302px; width: 376px; position: absolute; min-height: 68px; pointer-events: none; top: 27px;">
                             <h2 class="font_2" style="text-align:center;"><span style="font-weight:bold;">台灣行</span>
                                 7/14-7/20</h2>
                         </div>
@@ -291,11 +307,14 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-exact-height="415" data-content-padding-horizontal="0" data-content-padding-vertical="0"
-                            title="" class="wp2" id="comp-jlnj3c8j" style="left: 382px; position: absolute; top: 137px; width: 217px; height: 415px;">
+                        <div data-exact-height="415" data-content-padding-horizontal="0"
+                            data-content-padding-vertical="0" title="" class="wp2" id="comp-jlnj3c8j"
+                            style="left: 382px; position: absolute; top: 137px; width: 217px; height: 415px;">
                             <div id="comp-jlnj3c8jlink" class="wp2link" style="width: 217px; height: 415px;">
-                                <div data-style="" class="wp2img" id="comp-jlnj3c8jimg" style="position: relative; width: 217px; height: 415px;"><img
-                                        id="comp-jlnj3c8jimgimage" alt="TaiwanMap.png" data-type="image" src="./images/album/TaiwanMap.png"
+                                <div data-style="" class="wp2img" id="comp-jlnj3c8jimg"
+                                    style="position: relative; width: 217px; height: 415px;"><img
+                                        id="comp-jlnj3c8jimgimage" alt="TaiwanMap.png" data-type="image"
+                                        src="./images/album/TaiwanMap.png"
                                         style="width: 217px; height: 415px; object-fit: cover;"></div>
                             </div>
                         </div>
@@ -325,7 +344,9 @@
                                 user-select: none;
                             }
                         </style>
-                        <div class="style-jlwhjzbl" id="comp-jlnl2eb7" style="transform-origin: center 0.5px 0px; left: 214px; width: 276px; position: absolute; top: 218px; height: 5px;"></div>
+                        <div class="style-jlwhjzbl" id="comp-jlnl2eb7"
+                            style="transform-origin: center 0.5px 0px; left: 214px; width: 276px; position: absolute; top: 218px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlwhjzbl">
                             .style-jlwhjzbl {
                                 box-sizing: border-box;
@@ -333,9 +354,12 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-packed="false" data-min-height="2" class="txtNew" id="comp-jlnl5shd" style="left: 216px; width: 76px; position: absolute; min-height: 2px; pointer-events: none; top: 167px;">
-                            <h4 class="font_4" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">苗栗</span></span></span></h4>
+                        <div data-packed="false" data-min-height="2" class="txtNew" id="comp-jlnl5shd"
+                            style="left: 216px; width: 76px; position: absolute; min-height: 2px; pointer-events: none; top: 167px;">
+                            <h4 class="font_4" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">苗栗</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -467,9 +491,12 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnlkgr8" style="left: 136px; width: 76px; position: absolute; pointer-events: none; top: 232px;">
-                            <h4 class="font_4" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">彰化</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnlkgr8"
+                            style="left: 136px; width: 76px; position: absolute; pointer-events: none; top: 232px;">
+                            <h4 class="font_4" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">彰化</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -601,7 +628,9 @@
                                 color: inherit;
                             }
                         </style>
-                        <div class="style-jlnlkgtl" id="comp-jlnlkgr6" style="transform-origin: center 0.5px 0px; left: 136px; width: 312px; position: absolute; top: 283px; height: 5px;"></div>
+                        <div class="style-jlnlkgtl" id="comp-jlnlkgr6"
+                            style="transform-origin: center 0.5px 0px; left: 136px; width: 312px; position: absolute; top: 283px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnlkgtl">
                             .style-jlnlkgtl {
                                 box-sizing: border-box;
@@ -609,9 +638,12 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnllhkx" style="left: 776px; width: 76px; position: absolute; pointer-events: none; top: 127px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">台北</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnllhkx"
+                            style="left: 776px; width: 76px; position: absolute; pointer-events: none; top: 127px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">台北</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -743,7 +775,9 @@
                                 color: inherit;
                             }
                         </style>
-                        <div class="style-jlnln14z1" id="comp-jlnln10r" style="transform-origin: center 0.5px 0px; left: 464px; width: 312px; position: absolute; top: 255px; height: 5px;"></div>
+                        <div class="style-jlnln14z1" id="comp-jlnln10r"
+                            style="transform-origin: center 0.5px 0px; left: 464px; width: 312px; position: absolute; top: 255px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnln14z1">
                             .style-jlnln14z1 {
                                 box-sizing: border-box;
@@ -751,9 +785,12 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnln6oo" style="left: 656px; width: 76px; position: absolute; pointer-events: none; top: 310px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">嘉義</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnln6oo"
+                            style="left: 656px; width: 76px; position: absolute; pointer-events: none; top: 310px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">嘉義</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -885,7 +922,9 @@
                                 color: inherit;
                             }
                         </style>
-                        <div class="style-jlnln6qj" id="comp-jlnln6on" style="transform-origin: center 0.5px 0px; left: 416px; width: 312px; position: absolute; top: 361px; height: 5px;"></div>
+                        <div class="style-jlnln6qj" id="comp-jlnln6on"
+                            style="transform-origin: center 0.5px 0px; left: 416px; width: 312px; position: absolute; top: 361px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnln6qj">
                             .style-jlnln6qj {
                                 box-sizing: border-box;
@@ -893,25 +932,34 @@
                                 height: 0;
                             }
                         </style>
-                        <div class="ImageButton_1" data-state="supports_opacity transition_fade prepare_adh  " id="comp-jlno1ut9"
-                            style="left: 688px; width: 76px; position: absolute; top: 445px; height: 76px;"><a href="https://drive.google.com/open?id=1Ip_zsF8Z7ZPNRsR4A5SjC1tKdW23ddkd"
-                                target="_blank" data-content="https://drive.google.com/open?id=1Ip_zsF8Z7ZPNRsR4A5SjC1tKdW23ddkd"
-                                data-type="external" rel="nofollow" title="" id="comp-jlno1ut9link" class="ImageButton_1link"
-                                style="width: 76px; height: 76px;">
+                        <div class="ImageButton_1" data-state="supports_opacity transition_fade prepare_adh  "
+                            id="comp-jlno1ut9"
+                            style="left: 688px; width: 76px; position: absolute; top: 445px; height: 76px;"><a
+                                href="https://drive.google.com/open?id=1Ip_zsF8Z7ZPNRsR4A5SjC1tKdW23ddkd"
+                                target="_blank"
+                                data-content="https://drive.google.com/open?id=1Ip_zsF8Z7ZPNRsR4A5SjC1tKdW23ddkd"
+                                data-type="external" rel="nofollow" title="" id="comp-jlno1ut9link"
+                                class="ImageButton_1link" style="width: 76px; height: 76px;">
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1defaultImage" id="comp-jlno1ut9defaultImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlno1ut9defaultImageimage"
-                                            alt="" data-type="image" src="./images/album/imagebutton.png" style="width: 76px; height: 76px; object-fit: contain;"></div>
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlno1ut9defaultImageimage" alt="" data-type="image"
+                                            src="./images/album/imagebutton.png"
+                                            style="width: 76px; height: 76px; object-fit: contain;"></div>
                                 </div>
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1hoverImage" id="comp-jlno1ut9hoverImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlno1ut9hoverImageimage"
-                                            alt="" data-type="image" src="./images/album/imagebutton.png" style="width: 76px; height: 76px; object-fit: contain;"></div>
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlno1ut9hoverImageimage" alt="" data-type="image"
+                                            src="./images/album/imagebutton.png"
+                                            style="width: 76px; height: 76px; object-fit: contain;"></div>
                                 </div>
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1activeImage" id="comp-jlno1ut9activeImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlno1ut9activeImageimage"
-                                            alt="" data-type="image" src="./images/album/imagebutton.png" style="width: 76px; height: 76px; object-fit: contain;"></div>
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlno1ut9activeImageimage" alt="" data-type="image"
+                                            src="./images/album/imagebutton.png"
+                                            style="width: 76px; height: 76px; object-fit: contain;"></div>
                                 </div>
                             </a></div>
                         <style type="text/css" data-styleid="ImageButton_1">
@@ -1037,8 +1085,11 @@
                                 box-shadow: #000 0 0 0;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jlnse3d7" style="left: 222px; width: 216px; position: absolute; pointer-events: none; top: 219px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;">力馬、龍騰斷橋、木雕博物館</span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jlnse3d7"
+                            style="left: 222px; width: 216px; position: absolute; pointer-events: none; top: 219px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;">力馬、龍騰斷橋、木雕博物館</span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -1171,8 +1222,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlqewfej" style="left: 647.5px; width: 157px; position: absolute; pointer-events: none; top: 521px;">
-                            <p class="font_7" style="text-align:center;"><span style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;">​台灣行相簿連結</span></p>
+                        <div data-packed="true" class="txtNew" id="comp-jlqewfej"
+                            style="left: 647.5px; width: 157px; position: absolute; pointer-events: none; top: 521px;">
+                            <p class="font_7" style="text-align:center;"><span
+                                    style="font-family:arial,ｍｓ ｐゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;">​台灣行相簿連結</span>
+                            </p>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -1304,7 +1358,9 @@
                                 color: inherit;
                             }
                         </style>
-                        <div class="style-jlwhjnsg" id="comp-jlnllhl2" style="transform-origin: center 0.5px 0px; left: 544px; width: 312px; position: absolute; top: 178px; height: 5px;"></div>
+                        <div class="style-jlwhjnsg" id="comp-jlnllhl2"
+                            style="transform-origin: center 0.5px 0px; left: 544px; width: 312px; position: absolute; top: 178px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlwhjnsg">
                             .style-jlwhjnsg {
                                 box-sizing: border-box;
@@ -1312,15 +1368,20 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlnfegz7" id="comp-jlnfegx6" style="left: 414px; width: 14px; position: absolute; top: 351px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlnfegz7"
+                            id="comp-jlnfegx6"
+                            style="left: 414px; width: 14px; position: absolute; top: 351px; height: 14px;">
                             <div class="style-jlnfegz7_comp-jlnfegx6 style-jlnfegz7_non-scaling-stroke style-jlnfegz7svg"
-                                id="comp-jlnfegx6svg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlnfegx6svg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlnfegx6link" class="style-jlnfegz7link"></div>
@@ -1350,15 +1411,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlnfeh8p1" id="comp-jlnfeh64" style="left: 438px; width: 14px; position: absolute; top: 277px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlnfeh8p1"
+                            id="comp-jlnfeh64"
+                            style="left: 438px; width: 14px; position: absolute; top: 277px; height: 14px;">
                             <div class="style-jlnfeh8p1_comp-jlnfeh64 style-jlnfeh8p1_non-scaling-stroke style-jlnfeh8p1svg"
-                                id="comp-jlnfeh64svg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlnfeh64svg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlnfeh64link" class="style-jlnfeh8p1link"></div>
@@ -1388,15 +1454,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jln8nezl1" id="comp-jln8nevw" style="left: 462px; width: 14px; position: absolute; visibility: inherit; top: 246px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jln8nezl1"
+                            id="comp-jln8nevw"
+                            style="left: 462px; width: 14px; position: absolute; visibility: inherit; top: 246px; height: 14px;">
                             <div class="style-jln8nezl1_comp-jln8nevw style-jln8nezl1_non-scaling-stroke style-jln8nezl1svg"
-                                id="comp-jln8nevwsvg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jln8nevwsvg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jln8nevwlink" class="style-jln8nezl1link"></div>
@@ -1426,15 +1497,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlmbel9a" id="comp-jlmbekzs" style="left: 536px; width: 14px; position: absolute; top: 170px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlmbel9a"
+                            id="comp-jlmbekzs"
+                            style="left: 536px; width: 14px; position: absolute; top: 170px; height: 14px;">
                             <div class="style-jlmbel9a_comp-jlmbekzs style-jlmbel9a_non-scaling-stroke style-jlmbel9asvg"
-                                id="comp-jlmbekzssvg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlmbekzssvg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlmbekzslink" class="style-jlmbel9alink"></div>
@@ -1464,15 +1540,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jln8nepu" id="comp-jln8nenm" style="left: 480px; width: 14px; position: absolute; top: 209px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jln8nepu"
+                            id="comp-jln8nenm"
+                            style="left: 480px; width: 14px; position: absolute; top: 209px; height: 14px;">
                             <div class="style-jln8nepu_comp-jln8nenm style-jln8nepu_non-scaling-stroke style-jln8nepusvg"
-                                id="comp-jln8nenmsvg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jln8nenmsvg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jln8nenmlink" class="style-jln8nepulink"></div>
@@ -1502,9 +1583,12 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jp6s4qw9" style="left: 696px; width: 76px; position: absolute; pointer-events: none; top: 209px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">台中</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jp6s4qw9"
+                            style="left: 696px; width: 76px; position: absolute; pointer-events: none; top: 209px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">台中</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -1636,8 +1720,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jp6s6whr" style="left: 656px; width: 216px; position: absolute; pointer-events: none; top: 184px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;">台大、故宮、尹總裁晚宴</span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jp6s6whr"
+                            style="left: 656px; width: 216px; position: absolute; pointer-events: none; top: 184px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;">台大、故宮、尹總裁晚宴</span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -1770,8 +1857,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jp6s7xx6" style="left: 136px; width: 216px; position: absolute; pointer-events: none; top: 288px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;"><span>​鹿港老街</span></span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jp6s7xx6"
+                            style="left: 136px; width: 216px; position: absolute; pointer-events: none; top: 288px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;"><span>​鹿港老街</span></span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -1904,8 +1994,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jp6s8oag" style="left: 672px; width: 216px; position: absolute; pointer-events: none; top: 365px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;"><span>​阿里山</span></span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jp6s8oag"
+                            style="left: 672px; width: 216px; position: absolute; pointer-events: none; top: 365px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;"><span>​阿里山</span></span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -2038,8 +2131,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jp6sdmra" style="left: 608px; width: 216px; position: absolute; pointer-events: none; top: 260px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;"><span>​后豐鐵馬道、高美濕地</span></span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jp6sdmra"
+                            style="left: 608px; width: 216px; position: absolute; pointer-events: none; top: 260px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;"><span>​后豐鐵馬道、高美濕地</span></span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -2174,9 +2270,11 @@
                         </style>
                     </div>
 
-                    <div id="comp-jlnirl16inlineContent" class="mc1inlineContent" style="width: 100%; position: relative; top: 600px; bottom: 0px;">
+                    <div id="comp-jlnirl16inlineContent" class="mc1inlineContent"
+                        style="width: 100%; position: relative; top: 600px; bottom: 0px;">
                         <div data-content-area-marker="comp-jlnirl16" data-aid="content-area-marker-comp-jlnirl16"
-                            style="visibility: hidden; position: absolute; width: 980px; margin-left: calc((100% - 980px) * 0.5);"></div>
+                            style="visibility: hidden; position: absolute; width: 980px; margin-left: calc((100% - 980px) * 0.5);">
+                        </div>
                         <style id="comp-jlnirl16-content-area-styles">
                             #comp-jln8ockt {
                                 margin-left: calc((100% - 980px) * 0.5);
@@ -2242,8 +2340,10 @@
                                 margin-left: calc((100% - 980px) * 0.5);
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jln8ockt" style="left: 296px; width: 384px; position: absolute; pointer-events: none; top: 24px;">
-                            <h2 class="font_2" style="text-align:center;"><span>​<span style="font-weight:bold;">大陸行</span>
+                        <div data-packed="true" class="txtNew" id="comp-jln8ockt"
+                            style="left: 296px; width: 384px; position: absolute; pointer-events: none; top: 24px;">
+                            <h2 class="font_2" style="text-align:center;"><span>​<span
+                                        style="font-weight:bold;">大陸行</span>
                                     7/24-7/30</span></h2>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -2376,11 +2476,14 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-exact-height="415" data-content-padding-horizontal="0" data-content-padding-vertical="0"
-                            title="" class="wp2" id="comp-jlnj4i1i" style="left: 168px; position: absolute; top: 137px; width: 510px; height: 415px;">
+                        <div data-exact-height="415" data-content-padding-horizontal="0"
+                            data-content-padding-vertical="0" title="" class="wp2" id="comp-jlnj4i1i"
+                            style="left: 168px; position: absolute; top: 137px; width: 510px; height: 415px;">
                             <div id="comp-jlnj4i1ilink" class="wp2link" style="width: 510px; height: 415px;">
-                                <div data-style="" class="wp2img" id="comp-jlnj4i1iimg" style="position: relative; width: 510px; height: 415px;"><img
-                                        id="comp-jlnj4i1iimgimage" alt="ChinaMap.png" data-type="image" style="width: 510px; height: 415px; object-fit: cover;"
+                                <div data-style="" class="wp2img" id="comp-jlnj4i1iimg"
+                                    style="position: relative; width: 510px; height: 415px;"><img
+                                        id="comp-jlnj4i1iimgimage" alt="ChinaMap.png" data-type="image"
+                                        style="width: 510px; height: 415px; object-fit: cover;"
                                         src="./images/album/ChinaMap.png"></div>
                             </div>
                         </div>
@@ -2410,7 +2513,9 @@
                                 user-select: none;
                             }
                         </style>
-                        <div class="style-jlnp55iv" id="comp-jlnp55hc" style="transform-origin: center 0.5px 0px; left: 544px; width: 255px; position: absolute; top: 303px; height: 5px;"></div>
+                        <div class="style-jlnp55iv" id="comp-jlnp55hc"
+                            style="transform-origin: center 0.5px 0px; left: 544px; width: 255px; position: absolute; top: 303px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnp55iv">
                             .style-jlnp55iv {
                                 box-sizing: border-box;
@@ -2418,7 +2523,9 @@
                                 height: 0;
                             }
                         </style>
-                        <div class="style-jlnp6u561" id="comp-jlnp6u3r" style="transform-origin: center 0.5px 0px; left: 528px; width: 253px; position: absolute; top: 437px; height: 5px;"></div>
+                        <div class="style-jlnp6u561" id="comp-jlnp6u3r"
+                            style="transform-origin: center 0.5px 0px; left: 528px; width: 253px; position: absolute; top: 437px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnp6u561">
                             .style-jlnp6u561 {
                                 box-sizing: border-box;
@@ -2426,9 +2533,12 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnp76u8" style="left: 624px; width: 108px; position: absolute; pointer-events: none; top: 375.5px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">張家界</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnp76u8"
+                            style="left: 624px; width: 108px; position: absolute; pointer-events: none; top: 375.5px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">張家界</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -2560,9 +2670,12 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnp7gm1" style="left: 643.5px; width: 98px; position: absolute; pointer-events: none; top: 431px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px; text-align:center;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">長沙</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnp7gm1"
+                            style="left: 643.5px; width: 98px; position: absolute; pointer-events: none; top: 431px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px; text-align:center;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">長沙</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -2694,7 +2807,9 @@
                                 color: inherit;
                             }
                         </style>
-                        <div class="style-jlnp8lyz1" id="comp-jlnp8lxd" style="transform-origin: center 0.5px 0px; left: 504px; width: 253px; position: absolute; top: 422px; height: 5px;"></div>
+                        <div class="style-jlnp8lyz1" id="comp-jlnp8lxd"
+                            style="transform-origin: center 0.5px 0px; left: 504px; width: 253px; position: absolute; top: 422px; height: 5px;">
+                        </div>
                         <style type="text/css" data-styleid="style-jlnp8lyz1">
                             .style-jlnp8lyz1 {
                                 box-sizing: border-box;
@@ -2702,9 +2817,12 @@
                                 height: 0;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlnp5ves" style="left: 726px; width: 74px; position: absolute; pointer-events: none; top: 251px;">
-                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
-                                        style="font-size:35px;"><span style="color:#ED1566;">北京</span></span></span></h4>
+                        <div data-packed="true" class="txtNew" id="comp-jlnp5ves"
+                            style="left: 726px; width: 74px; position: absolute; pointer-events: none; top: 251px;">
+                            <h4 class="font_4" dir="rtl" style="font-size:35px;"><span
+                                    style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span
+                                        style="font-size:35px;"><span style="color:#ED1566;">北京</span></span></span>
+                            </h4>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {
@@ -2836,9 +2954,12 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jlnulldt" style="left: 608px; width: 270px; position: absolute; pointer-events: none; top: 304px;">
+                        <div data-packed="false" class="txtNew" id="comp-jlnulldt"
+                            style="left: 608px; width: 270px; position: absolute; pointer-events: none; top: 304px;">
                             <p class="font_8" dir="rtl" style="text-align:center;"><span style="color:#ED1566;"><span
-                                        style="font-weight:bold;"><span style="font-family:playfair display,serif;">北大、故宮、頤和園</span></span></span></p>
+                                        style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;">北大、故宮、頤和園</span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -2971,8 +3092,11 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jlnthtec" style="left: 729px; width: 204px; position: absolute; pointer-events: none; top: 458px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;">嶽麓書院、長沙市區</span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jlnthtec"
+                            style="left: 729px; width: 204px; position: absolute; pointer-events: none; top: 458px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;">嶽麓書院、長沙市區</span></span></span>
+                            </p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -3105,8 +3229,10 @@
                                 color: inherit;
                             }
                         </style>
-                        <div data-packed="false" class="txtNew" id="comp-jlnumx4o" style="left: 737px; width: 212px; position: absolute; pointer-events: none; top: 396px;">
-                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span style="font-family:playfair display,serif;">袁家界、天門山</span></span></span></p>
+                        <div data-packed="false" class="txtNew" id="comp-jlnumx4o"
+                            style="left: 737px; width: 212px; position: absolute; pointer-events: none; top: 396px;">
+                            <p class="font_8"><span style="color:#ED1566;"><span style="font-weight:bold;"><span
+                                            style="font-family:playfair display,serif;">袁家界、天門山</span></span></span></p>
                             <div class="measurer" style="position: absolute"></div>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
@@ -3240,26 +3366,31 @@
                             }
                         </style>
                         <div class="ImageButton_1" data-state="supports_opacity transition_fade   " id="comp-jlntvxkc"
-                            style="left: 678px; width: 76px; position: absolute; top: 521px; height: 76px;"><a href="https://drive.google.com/open?id=1SAzbWTjtyLGJ0ItMLjToYYWN-K3yJjgQ"
-                                target="_blank" data-content="https://drive.google.com/open?id=1SAzbWTjtyLGJ0ItMLjToYYWN-K3yJjgQ"
-                                data-type="external" rel="nofollow" title="" id="comp-jlntvxkclink" class="ImageButton_1link"
-                                style="width: 76px; height: 76px;">
+                            style="left: 678px; width: 76px; position: absolute; top: 521px; height: 76px;"><a
+                                href="https://drive.google.com/open?id=1SAzbWTjtyLGJ0ItMLjToYYWN-K3yJjgQ"
+                                target="_blank"
+                                data-content="https://drive.google.com/open?id=1SAzbWTjtyLGJ0ItMLjToYYWN-K3yJjgQ"
+                                data-type="external" rel="nofollow" title="" id="comp-jlntvxkclink"
+                                class="ImageButton_1link" style="width: 76px; height: 76px;">
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1defaultImage" id="comp-jlntvxkcdefaultImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlntvxkcdefaultImageimage"
-                                            alt="" data-type="image" style="width: 76px; height: 76px; object-fit: contain;"
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlntvxkcdefaultImageimage" alt="" data-type="image"
+                                            style="width: 76px; height: 76px; object-fit: contain;"
                                             src="./images/album/imagebutton.png"></div>
                                 </div>
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1hoverImage" id="comp-jlntvxkchoverImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlntvxkchoverImageimage"
-                                            alt="" data-type="image" style="width: 76px; height: 76px; object-fit: contain;"
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlntvxkchoverImageimage" alt="" data-type="image"
+                                            style="width: 76px; height: 76px; object-fit: contain;"
                                             src="./images/album/imagebutton.png"></div>
                                 </div>
                                 <div class="ImageButton_1_correct-positioning">
                                     <div data-style="" class="ImageButton_1activeImage" id="comp-jlntvxkcactiveImage"
-                                        style="position: relative; width: 76px; height: 76px;"><img id="comp-jlntvxkcactiveImageimage"
-                                            alt="" data-type="image" style="width: 76px; height: 76px; object-fit: contain;"
+                                        style="position: relative; width: 76px; height: 76px;"><img
+                                            id="comp-jlntvxkcactiveImageimage" alt="" data-type="image"
+                                            style="width: 76px; height: 76px; object-fit: contain;"
                                             src="./images/album/imagebutton.png"></div>
                                 </div>
                             </a></div>
@@ -3386,15 +3517,20 @@
                                 box-shadow: #000 0 0 0;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlnp2b0w" id="comp-jlnp2ay6" style="left: 542px; width: 14px; position: absolute; top: 295px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlnp2b0w"
+                            id="comp-jlnp2ay6"
+                            style="left: 542px; width: 14px; position: absolute; top: 295px; height: 14px;">
                             <div class="style-jlnp2b0w_comp-jlnp2ay6 style-jlnp2b0w_non-scaling-stroke style-jlnp2b0wsvg"
-                                id="comp-jlnp2ay6svg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlnp2ay6svg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlnp2ay6link" class="style-jlnp2b0wlink"></div>
@@ -3424,15 +3560,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlnp19cw1" id="comp-jlnp199l" style="left: 496px; width: 14px; position: absolute; top: 411px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlnp19cw1"
+                            id="comp-jlnp199l"
+                            style="left: 496px; width: 14px; position: absolute; top: 411px; height: 14px;">
                             <div class="style-jlnp19cw1_comp-jlnp199l style-jlnp19cw1_non-scaling-stroke style-jlnp19cw1svg"
-                                id="comp-jlnp199lsvg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlnp199lsvg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlnp199llink" class="style-jlnp19cw1link"></div>
@@ -3462,15 +3603,20 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg" data-svg-type="shape"
-                            data-display-mode="fit" data-strokewidth="0" data-viewbox="0 0 200 200"
-                            data-preserve-viewbox="ignore" class="style-jlnp2wap" id="comp-jlnp2vy6" style="left: 520px; width: 14px; position: absolute; top: 431px; height: 14px;">
+                        <div data-svg-id="8463f60718194af748c49dddbe45b668_svgshape.v1.HollowCircle.svg"
+                            data-svg-type="shape" data-display-mode="fit" data-strokewidth="0"
+                            data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" class="style-jlnp2wap"
+                            id="comp-jlnp2vy6"
+                            style="left: 520px; width: 14px; position: absolute; top: 431px; height: 14px;">
                             <div class="style-jlnp2wap_comp-jlnp2vy6 style-jlnp2wap_non-scaling-stroke style-jlnp2wapsvg"
-                                id="comp-jlnp2vy6svg" style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
+                                id="comp-jlnp2vy6svg"
+                                style="fill-opacity: 1; stroke-width: 0; stroke: rgb(47, 46, 46); stroke-opacity: 1; fill: rgb(239, 86, 88);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"
                                     role="img" preserveAspectRatio="xMidYMid meet" style="stroke-width: 0px;">
                                     <g>
-                                        <path d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"></path>
+                                        <path
+                                            d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z">
+                                        </path>
                                     </g>
                                 </svg></div>
                             <div id="comp-jlnp2vy6link" class="style-jlnp2waplink"></div>
@@ -3500,8 +3646,11 @@
                                 vector-effect: non-scaling-stroke;
                             }
                         </style>
-                        <div data-packed="true" class="txtNew" id="comp-jlqf0aam" style="left: 624px; width: 172px; position: absolute; pointer-events: none; top: 597px;">
-                            <p class="font_7" style="text-align:center;"><span style="font-family:arial,ms pゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;">​大陸行相簿連結</span></p>
+                        <div data-packed="true" class="txtNew" id="comp-jlqf0aam"
+                            style="left: 624px; width: 172px; position: absolute; pointer-events: none; top: 597px;">
+                            <p class="font_7" style="text-align:center;"><span
+                                    style="font-family:arial,ms pゴシック,ms pgothic,돋움,dotum,helvetica,sans-serif;">​大陸行相簿連結</span>
+                            </p>
                         </div>
                         <style type="text/css" data-styleid="txtNew">
                             .txtNew {

@@ -16,9 +16,22 @@
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
 	</noscript>
+	<style>
+		body {
+			display: none;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -41,7 +54,8 @@
 						<h1 align="center">​陳彥霖</h1>
 					</header>
 
-					<p>　　<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
+					<p>　　<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em;padding:1em 1em 1em 1em">
 							<div align="left">
 								當分別的那一剎那，才知道這一切已經深深烙進內心了......。<br><br>
 

@@ -116,11 +116,22 @@
 			-webkit-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 		}
-	</style>
 
+		body {
+			display: none;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -159,9 +170,11 @@
 					</header>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g1/ntu01.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g1/ntu01.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2>臺大第一組</h2>
 								書名：真希望我20歲就懂的事：<br>
 								史丹佛大學的創新X創意X創業震撼課程<br>
@@ -174,9 +187,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g1/pku01.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g1/pku01.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>北大第一組</h2>
 								書名：卓有成效的管理者<br>
 								The Effective Executive<br>
@@ -202,9 +217,11 @@
 					<hr size="5" color="white"><br>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g2/ntu02.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g2/ntu02.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>臺大第二組</h2>
 								書名：The One Minute Manager<br>
 								作者：Ken Blanchard, Spencer Johnson<br><br><br><br>
@@ -213,9 +230,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g2/pku02.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g2/pku02.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>北大第二組</h2>
 								書名：Management Challenges for the 21st Century<br>
 								作者：Peter F. Drucker<br><br><br><br>
@@ -239,9 +258,11 @@
 					</p>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g3/ntu03.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g3/ntu03.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>臺大第三組</h2>
 								書名：目標<br>
 								作者：Eliyahu M. Goldratt<br>
@@ -251,9 +272,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g3/pku03.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g3/pku03.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>北大第三組</h2>
 								書名：史記<br>
 								作者：司馬遷<br><br><br><br>
@@ -277,9 +300,11 @@
 					</p>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g4/ntu04.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g4/ntu04.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2>臺大第四組</h2>
 								書名：不只是件白襯衫：商學院裡沒學到的策略實戰><br>
 								What I Didn’t Learn in Business School:><br>
@@ -292,9 +317,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g4/pku04.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g4/pku04.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>北大第四組</h2>
 								書名：經驗的疆界<br>
 								The Ambiguities of Experience<br>
@@ -321,12 +348,15 @@
 					</p>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g5/ntu05.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g5/ntu05.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2>臺大第五組</h2>
 								書名：創意電力公司：我如何打造皮克斯動畫<br>
-								Creativity, INC. Overcoming the unseen forces that stand in the way of true inspiration<br>
+								Creativity, INC. Overcoming the unseen forces that stand in the way of true
+								inspiration<br>
 								作者：Ed Catmull, Amy Wallace<br>
 								譯者：方祖芳<br>
 								<br><br>
@@ -335,9 +365,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g5/pku05.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g5/pku05.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2>北大第五組</h2>
 								書名：追求卓越：探索成功企業的特質<br>
 								In Search of Excellence：Lessons from America’s Best-Run Companies<br>
@@ -364,9 +396,11 @@
 					</p>
 
 					<p>
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g6/ntu06.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g6/ntu06.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>臺大第六組</h2>
 								書名：What to Ask The Person in the Mirror<br>
 								作者：Robert S. Kaplan<br><br>
@@ -377,9 +411,11 @@
 
 						<div style="clear:both;"></div>
 
-						<div align="center" style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
+						<div align="center"
+							style="border: 3px dashed white;border-radius: 10px; margin: 1em 3em 1em 3em">
 							<div style="margin: 2em 2em 2em 2em">
-								<img src="./images/academic/g6/pku06.jpg" style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
+								<img src="./images/academic/g6/pku06.jpg"
+									style="float: right;width: 200px; height: auto;margin: 0.5em 0.5em 0.5em 0.5em;">
 								<h2><br>北大第六組</h2>
 								書名: The 7 Habits of Highly Effective People<br>
 								作者：Stephen R. Covey<br>

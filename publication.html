@@ -17,9 +17,22 @@
 	<noscript>
 		<link rel="stylesheet" href="./assets/css/noscript.css">
 	</noscript>
+	<style>
+		body {
+			display: none;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
+	<script>
+		if (self == top) {
+			var theBody = document.getElementsByTagName('body')[0];
+			theBody.style.display = "block"
+		} else {
+			top.location = self.location
+		}
+	</script>
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -62,8 +75,8 @@
 						<div align="center">
 							<!-- <iframe id="player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/7tRRezdKOeI?enablejsapi=1&origin=http://example.com"
 							 frameborder="0"></iframe> -->
-							<iframe width="640" height="360" src="https://www.youtube.com/embed/7tRRezdKOeI" frameborder="0" allow="autoplay; encrypted-media"
-							 allowfullscreen></iframe>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/7tRRezdKOeI"
+								frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<br>
 						</div>
 						<hr size="5" color="white">
@@ -73,8 +86,8 @@
 							<div align="center">
 								<!-- <iframe id="player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/iKfhFAKgVxg?enablejsapi=1&origin=http://example.com"
 								 frameborder="0"></iframe> -->
-								<iframe width="640" height="360" src="https://www.youtube.com/embed/iKfhFAKgVxg" frameborder="0" allow="autoplay; encrypted-media"
-								 allowfullscreen></iframe>
+								<iframe width="640" height="360" src="https://www.youtube.com/embed/iKfhFAKgVxg"
+									frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							</div>
 							<br>
 						</div>　
@@ -84,9 +97,9 @@
 						<div align="center">
 							<div align="center">
 								<!-- <iframe id="player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/Dqec5Z1wsJw?enablejsapi=1&origin=http://example.com"
-								 frameborder="0"></iframe> -->
-								<iframe width="640" height="360" src="https://www.youtube.com/embed/Dqec5Z1wsJw" frameborder="0" allow="autoplay; encrypted-media"
-								 allowfullscreen></iframe>
+										 frameborder="0"></iframe> -->
+								<iframe width="640" height="360" src="https://www.youtube.com/embed/Dqec5Z1wsJw"
+									frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							</div>
 							<br>
 						</div>　
@@ -98,7 +111,8 @@
 						<div align="center">
 							<!-- <iframe src="https://e.issuu.com/anonymous-embed.html?u=martin880501&d=___a5_______logo" width="944" height="500"
 							 frameborder="0" allowfullscreen="true"></iframe> -->
-							<div data-configid="34449407/64979301" style="width:960px; height:540px;" class="issuuembed"></div>
+							<div data-configid="34449407/64979301" style="width:960px; height:540px;"
+								class="issuuembed"></div>
 							<script type="text/javascript" src="./assets/js/issuu.min.js" async="true"></script>
 						</div>
 						<br>
@@ -108,7 +122,8 @@
 						<div align="center">
 							<!-- <iframe src="https://e.issuu.com/anonymous-embed.html?u=martin880501&d=2018___" width="944" height="500"
 							 frameborder="0" allowfullscreen="true"></iframe> -->
-							<div data-configid="34449407/64566729" style="width:960px; height:540px;" class="issuuembed"></div>
+							<div data-configid="34449407/64566729" style="width:960px; height:540px;"
+								class="issuuembed"></div>
 							<script type="text/javascript" src="./assets/js/issuu.min.js" async="true"></script>
 						</div>
 					</p>

@@ -1,4 +1,4 @@
-﻿12/5 冠群
+﻿12/5
 -更改image/album/imagebutton.png
 -更改album.html中的路徑為相對路徑
 -增加./assets/js/issuu.min.js
@@ -14,3 +14,8 @@
 -壓縮album的照片
 -修復academic第五組第2 3張相片無法顯示問題
 -icon改為去背版
+
+4/21
+-修復被Clickjacking的問題
+-讓YouTube內嵌影片自適應螢幕大小(RWD)
+
